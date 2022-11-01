@@ -3,7 +3,6 @@ import com.beust.jcommander.JCommander;
 import com.platzi.jobsearch.api.APIJobs;
 import com.platzi.jobsearch.cli.CLIArguments;
 import com.platzi.jobsearch.cli.CLIFunctions;
-
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Map;
@@ -40,5 +39,4 @@ public class JobSearch {
                 .map(api::jobs)
                 .flatMap(Collection::stream);
     }
-
 }

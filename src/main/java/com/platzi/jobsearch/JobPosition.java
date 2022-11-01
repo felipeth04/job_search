@@ -1,7 +1,5 @@
 package com.platzi.jobsearch;
-
 import com.google.gson.annotations.SerializedName;
-
 import java.util.Objects;
 
 public class JobPosition {

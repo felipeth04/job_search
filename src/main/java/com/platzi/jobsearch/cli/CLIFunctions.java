@@ -1,5 +1,4 @@
 package com.platzi.jobsearch.cli;
-
 import java.util.HashMap;
 import java.util.Map;
 

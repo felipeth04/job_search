@@ -1,5 +1,4 @@
 package com.platzi.jobsearch.cli;
-
 import com.beust.jcommander.Parameter;
 
 public class CLIArguments {

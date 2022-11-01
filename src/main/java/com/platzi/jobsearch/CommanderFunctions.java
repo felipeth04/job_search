@@ -1,7 +1,6 @@
 package com.platzi.jobsearch;
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.ParameterException;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
