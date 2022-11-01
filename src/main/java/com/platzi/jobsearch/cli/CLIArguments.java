@@ -13,7 +13,6 @@ public class CLIArguments {
 
     )
     private Boolean isMarkDown = false;
-
     @Parameter(
             names = {
                     "--help",
@@ -24,7 +23,6 @@ public class CLIArguments {
             description = "Show all help"
     )
     private Boolean isHelp;
-
     @Parameter(
             names = {
                     "--full-time",
@@ -33,7 +31,6 @@ public class CLIArguments {
             description = "personalize your search with this parameter and get results to full time open positions"
     )
     private Boolean isFullTime = false;
-
     @Parameter(
             names = {
                     "--page",
@@ -42,7 +39,6 @@ public class CLIArguments {
             description = "the API returns 50 results per page"
     )
     private Integer page = 0;
-
     @Parameter(
             required = true,
             descriptionKey = "KEYWORD",
@@ -50,7 +46,6 @@ public class CLIArguments {
             description = "KEY WORD"
     )
     private String keyWord;
-
     @Parameter(
             names = {
                     "--location",
