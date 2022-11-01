@@ -20,6 +20,7 @@ public class CLIArguments {
                     "-h"
             },
             help = true,
+            validateWith = CLIHelpValidator.class,
             description = "Show all help"
     )
     private Boolean isHelp;
@@ -45,6 +46,7 @@ public class CLIArguments {
     @Parameter(
             required = true,
             descriptionKey = "KEYWORD",
+            validateWith = CLIKeyWordValidator.class,
             description = "KEY WORD"
     )
     private String keyWord;
